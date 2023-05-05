@@ -1,3 +1,10 @@
-header{
-    background-color: #306ccc;
+.cabecalho {
+    background-color:#000000;
+    color: white;
+   display: flex;
+   justify-content: space-around;
+}
+
+.cabecalho-imagem{
+ width: 30%;
 }
