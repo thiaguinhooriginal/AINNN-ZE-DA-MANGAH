@@ -10,6 +10,7 @@
    display: flex;
    justify-content: space-around;
    padding: 24px 0PX;
+   
 }
 
 .cabecalho-imagem{
@@ -17,7 +18,19 @@
 }
 
 .cabecalho-lista-item{
- display: inline-block;
- margin: 0 19px ;
- font-size: 24px ;
+display: flow-root;
+ margin: 0 100px ;
+ font-size: 30px ;
+
+}
+
+.escola-imagen{
+ width: 20%;
+}
+
+.escola{
+    background-image: linear-gradient(#000000,#AA0000);
+    color: white;
+    display: flexbox;
+
 }
